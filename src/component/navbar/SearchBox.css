@@ -1,0 +1,28 @@
+.search-container{
+  display: grid;
+  grid-template-columns: 12fr 1fr;
+  border-radius: 0.25rem;
+  align-items: center;
+  background-color: #313131;
+width: 100%;
+}
+input {
+  padding: 10px;
+  border: none;
+  color: #F3F3F3;
+  background-color: inherit;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition-property: border-color, box-shadow;
+  transition-duration: 0.15s, 0.15s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s;
+}
+
+
+
+.search-icon{
+  padding: 0 10px;
+  color: white;
+  justify-self: end;
+}

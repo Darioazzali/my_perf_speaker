@@ -1,0 +1,17 @@
+.nav-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+    color: #676767;
+    background-color: #242424;
+    padding: 10px 50px;
+    border-bottom: 1px solid #313131;
+}
+
+
+.nav-logo {
+    color: #ababab;
+    padding: .3125rem 0;
+    font-size: 1.25rem;
+}
